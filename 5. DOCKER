@@ -46,7 +46,11 @@ DOCKER CLIENT: its a way of interacting with docker (command -- > op)
 DOCKER DAEMON: it manage all the docker components (images, cont, volumes, nlw)
 DOCKER HOST: where we installed docker
 DOCKER REGISTRY: it manages all the  docker images on internet.
-
+                   OR
+Docker Client → where developers interact (CLI / APIs)
+Docker Daemon → builds, runs, and manages containers
+Docker Images → blueprints of applications
+Docker Containers → lightweight, isolated runtime environments
 
 INSTALLATION:
 yum install docker -y
